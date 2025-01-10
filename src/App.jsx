@@ -1,13 +1,12 @@
+import React from 'react'
+import Page from './pages/Page'
 
-import './App.css'
-import { Button } from './components/ui/button'
 function App() {
   return (
-    <>
-      <div className=' '>
-
-      </div>
-    </>
+    <div>
+      <Page />
+    </div>
   )
 }
+
 export default App
